@@ -114,4 +114,5 @@ def post_registre(request):
         context = {
                 "form": form
             }
+        
         return render(request, 'post_registre.html', context)
